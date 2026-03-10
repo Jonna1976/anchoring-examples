@@ -1,0 +1,4 @@
+This file exists.
+Its hash is anchored to Bitcoin on every push.
+Verify the .proof file at https://verify-anchoring.org
+# test artifact inclusion di 10 mrt 2026 16:30:03 CET
