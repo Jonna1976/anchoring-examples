@@ -11,7 +11,7 @@ client = UmariseCore(api_key=os.environ["UMARISE_API_KEY"])
 with open(model_path, "rb") as f:
     sha256 = "sha256:" + hashlib.sha256(f.read()).hexdigest()
 
-result = client.attest(hash_value=sha256)
+result = client.attest(sha256)
 origin_id = result.origin_id
 
 with mlflow.start_run():
